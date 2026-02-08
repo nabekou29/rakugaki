@@ -1,0 +1,11 @@
+{
+  "name": "Variables Import",
+  "id": "1225498390710809905",
+  "api": "1.0.0",
+  "editorType": ["figma"],
+  "permissions": [],
+  "main": "code.js",
+  "menu": [{ "command": "import", "name": "Import Variables" }],
+  "ui": { "import": "import.html" },
+  "documentAccess": "dynamic-page"
+}

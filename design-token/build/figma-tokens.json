@@ -1,0 +1,220 @@
+{
+  "variables": [
+    {
+      "tokenType": "variable",
+      "type": "COLOR",
+      "name": "color/white",
+      "$value": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "tokenType": "variable",
+      "type": "COLOR",
+      "name": "color/black",
+      "$value": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "tokenType": "variable",
+      "type": "COLOR",
+      "name": "color/red/200",
+      "$value": {
+        "r": 1,
+        "g": 0.788235294117647,
+        "b": 0.788235294117647,
+        "a": 1
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "tokenType": "variable",
+      "type": "COLOR",
+      "name": "color/red/400",
+      "$value": {
+        "r": 0.984313725490196,
+        "g": 0.43137254901960786,
+        "b": 0.43137254901960786,
+        "a": 1
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "tokenType": "variable",
+      "type": "COLOR",
+      "name": "color/red/600",
+      "$value": {
+        "r": 0.8784313725490196,
+        "g": 0.13333333333333333,
+        "b": 0.13333333333333333,
+        "a": 1
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "tokenType": "variable",
+      "type": "COLOR",
+      "name": "color/red/800",
+      "$value": {
+        "r": 0.611764705882353,
+        "g": 0.09411764705882353,
+        "b": 0.09411764705882353,
+        "a": 1
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "tokenType": "variable",
+      "type": "COLOR",
+      "name": "color/blue/200",
+      "$value": {
+        "r": 0.7725490196078432,
+        "g": 0.8549019607843137,
+        "b": 0.9725490196078431,
+        "a": 1
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "tokenType": "variable",
+      "type": "COLOR",
+      "name": "color/blue/400",
+      "$value": {
+        "r": 0.4392156862745098,
+        "g": 0.6352941176470588,
+        "b": 0.9176470588235294,
+        "a": 1
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "tokenType": "variable",
+      "type": "COLOR",
+      "name": "color/blue/600",
+      "$value": {
+        "r": 0.2235294117647059,
+        "g": 0.39215686274509803,
+        "b": 0.8431372549019608,
+        "a": 1
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "tokenType": "variable",
+      "type": "COLOR",
+      "name": "color/blue/800",
+      "$value": {
+        "r": 0.17647058823529413,
+        "g": 0.2627450980392157,
+        "b": 0.6274509803921569,
+        "a": 1
+      },
+      "scopes": [
+        "ALL_SCOPES"
+      ]
+    },
+    {
+      "tokenType": "variable",
+      "type": "FLOAT",
+      "name": "font-size/sm",
+      "$value": 14,
+      "scopes": [
+        "FONT_SIZE"
+      ]
+    },
+    {
+      "tokenType": "variable",
+      "type": "FLOAT",
+      "name": "font-size/md",
+      "$value": 16,
+      "scopes": [
+        "FONT_SIZE"
+      ]
+    },
+    {
+      "tokenType": "variable",
+      "type": "FLOAT",
+      "name": "font-size/lg",
+      "$value": 20,
+      "scopes": [
+        "FONT_SIZE"
+      ]
+    },
+    {
+      "tokenType": "variable",
+      "type": "FLOAT",
+      "name": "font-weight/normal",
+      "$value": 400,
+      "scopes": [
+        "FONT_WEIGHT"
+      ]
+    },
+    {
+      "tokenType": "variable",
+      "type": "FLOAT",
+      "name": "font-weight/bold",
+      "$value": 700,
+      "scopes": [
+        "FONT_WEIGHT"
+      ]
+    },
+    {
+      "tokenType": "variable",
+      "type": "STRING",
+      "name": "font-family/helvetica",
+      "$value": "Hiragino Sans",
+      "scopes": [
+        "FONT_FAMILY"
+      ]
+    }
+  ],
+  "styles": [
+    {
+      "tokenType": "style",
+      "type": "TEXT",
+      "name": "typography/body",
+      "$value": {
+        "fontFamily": "{font-family/helvetica}",
+        "fontSize": "{font-size/md}",
+        "fontWeight": "{font-weight/normal}"
+      }
+    },
+    {
+      "tokenType": "style",
+      "type": "TEXT",
+      "name": "typography/heading",
+      "$value": {
+        "fontFamily": "{font-family/helvetica}",
+        "fontSize": "{font-size/lg}",
+        "fontWeight": "{font-weight/bold}"
+      }
+    }
+  ]
+}
