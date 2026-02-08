@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "type": "module",
+  "scripts": {
+    "build": "tsx build.ts",
+    "lint": "biome lint --write",
+    "format": "biome format --write",
+    "check": "biome check --write"
+  },
+  "packageManager": "pnpm@10.0.0-beta.1+sha512.629de0531b9ae9a3f8e372d014ef8f5a57906d9a48095ced54bbfbd246b4136381478032c8d13819fd1eedde8330517a799ea6756eedd9a136e36524fa3083cf",
+  "engines": {
+    "node": "^22.0.0",
+    "pnpm": "~10.0.0-beta.1"
+  },
+  "dependencies": {
+    "@figma/plugin-typings": "^1.104.0",
+    "color2k": "^2.0.3",
+    "style-dictionary": "^4.2.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "yaml": "^2.6.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4"
+  }
+}

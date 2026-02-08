@@ -1,0 +1,58 @@
+color:
+  $type: color
+  white:
+    $value: "#ffffff"
+  black:
+    $value: "#000000"
+  red:
+    200:
+      $value: "#ffc9c9"
+    400:
+      $value: "#fb6e6e"
+    600:
+      $value: "#e02222"
+    800:
+      $value: "#9c1818"
+  blue:
+    200:
+      $value: "#c5daf8"
+    400:
+      $value: "#70a2ea"
+    600:
+      $value: "#3964d7"
+    800:
+      $value: "#2d43a0"
+
+font-size:
+  $type: dimension
+  sm:
+    $value: 14
+  md:
+    $value: 16
+  lg:
+    $value: 20
+
+font-weight:
+  $type: number
+  normal:
+    $value: 400
+  bold:
+    $value: 700
+
+font-family:
+  $type: fontFamily
+  helvetica:
+    $value: ["Hiragino Sans", "sans-serif"]
+
+typography:
+  $type: typography
+  body:
+    $value:
+      fontFamily: "{font-family.helvetica}"
+      fontSize: "{font-size.md}"
+      fontWeight: "{font-weight.normal}"
+  heading:
+    $value:
+      fontFamily: "{font-family.helvetica}"
+      fontSize: "{font-size.lg}"
+      fontWeight: "{font-weight.bold}"

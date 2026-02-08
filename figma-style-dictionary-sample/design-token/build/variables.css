@@ -1,0 +1,24 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-red-200: #ffc9c9;
+  --color-red-400: #fb6e6e;
+  --color-red-600: #e02222;
+  --color-red-800: #9c1818;
+  --color-blue-200: #c5daf8;
+  --color-blue-400: #70a2ea;
+  --color-blue-600: #3964d7;
+  --color-blue-800: #2d43a0;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --font-family-helvetica: 'Hiragino Sans', sans-serif;
+  --typography-body: var(--font-weight-normal) var(--font-size-md) var(--font-family-helvetica);
+  --typography-heading: var(--font-weight-bold) var(--font-size-lg) var(--font-family-helvetica);
+}
