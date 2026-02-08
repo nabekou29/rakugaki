@@ -1,0 +1,45 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "lgtm-cat",
+  "title": "lgtm-cat",
+  "description": "LGTMeow を Raycast で使えるようにしたもの",
+  "icon": "icon.png",
+  "author": "nabekou29",
+  "owner": "unipos-dev",
+  "categories": [
+    "Developer Tools"
+  ],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "index",
+      "title": "LGTM Cats",
+      "description": "ねこちゃんの画像をランダムに表示する",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.39.2",
+    "@raycast/utils": "1.3.4",
+    "fp-ts": "2.12.3",
+    "io-ts": "2.2.18",
+    "react": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "~16.10.0",
+    "@types/react": "^17.0.28",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "publish": "ray publish"
+  }
+}
